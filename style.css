@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.label {
+  font-weight: bold;
+  color: #555;
+}
+
+.value {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+.timestamp {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}

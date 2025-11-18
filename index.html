@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitoreo de Presión</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>Monitoreo de Presión</h1>
+
+    <div>
+      <div class="label">Presión (kPa)</div>
+      <div id="kpa" class="value">--</div>
+    </div>
+
+    <div>
+      <div class="label">Voltaje (V)</div>
+      <div id="voltaje" class="value">--</div>
+    </div>
+
+    <div>
+      <div class="label">Fecha y hora</div>
+      <div id="fechaHora" class="value">--</div>
+    </div>
+
+    <div class="timestamp">
+      Última actualización: <span id="updateTime">--</span>
+    </div>
+  </div>
+
+  <!-- Script principal -->
+  <script type="module" src="app.js"></script>
+
+</body>
+</html>
